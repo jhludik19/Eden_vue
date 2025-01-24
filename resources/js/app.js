@@ -17,6 +17,8 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 app.component('example-component', ExampleComponent);
+import InstalacionesComponent from './components/InstalacionesComponent.vue';
+app.component('instalaciones-component', InstalacionesComponent);
 
 /**
  * The following block of code may be used to automatically register your
