@@ -19,6 +19,18 @@ import ExampleComponent from './components/ExampleComponent.vue';
 app.component('example-component', ExampleComponent);
 import InstalacionesComponent from './components/InstalacionesComponent.vue';
 app.component('instalaciones-component', InstalacionesComponent);
+import ContactenosComponent from './components/ContactenosComponet.vue';
+app.component('contactenos-component', ContactenosComponent);
+import HabitacionEstandarComponent from './components/HabitacionEstandarComponet.vue';
+app.component('habitacionestandar-component', HabitacionEstandarComponent);
+import HabitacionDobleComponent from './components/HabitacionDobleComponet.vue';
+app.component('habitaciondoble-component', HabitacionDobleComponent);
+import HabitacionMatrimonialComponent from './components/HabitacionMatrimonialComponet.vue';
+app.component('habitacionmatrimonial-component', HabitacionMatrimonialComponent);
+import HabitacionMPremiunComponent from './components/HabitacionMPremiunComponet.vue';
+app.component('habitacionmpremiun-component', HabitacionMPremiunComponent);
+import HabitacionSuperVipComponent from './components/HabitacionSuperVipComponet.vue';
+app.component('habitacionsupervip-component', HabitacionSuperVipComponent);
 
 /**
  * The following block of code may be used to automatically register your

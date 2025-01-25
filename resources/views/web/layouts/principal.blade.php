@@ -10,6 +10,7 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <meta content="" name="author" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="apple-touch-icon-precomposed" href="{{ asset('web/images/web/favicon-apple.png') }}" />
     <link rel="icon" href="{{ asset('web/images/web/favicon.png') }}" />
@@ -52,7 +53,7 @@
     <nav id="mobile-menu"></nav>
     <div class="wrapper">
 
-        <div id="app">
+        <div id="app" data-csrf="{{ csrf_token() }}">
             @include('web.layouts.header')
             @yield('content')
             @include('web.layouts.footer')
